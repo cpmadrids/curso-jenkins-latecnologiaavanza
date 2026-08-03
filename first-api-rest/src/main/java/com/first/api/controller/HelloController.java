@@ -28,15 +28,5 @@ public class HelloController {
         return "Hola Mundo con REST en Spring Boot";
     }
 
-    @GetMapping("/hello4")
-    public String saludar4(){
-        return "Hola Mundo con REST en Spring Boot";
-    }
-
-    @GetMapping("/hello5")
-    public String saludar5(){
-        return "Hola Mundo con REST en Spring Boot";
-    }
-
 }
 
